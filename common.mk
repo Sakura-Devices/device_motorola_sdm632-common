@@ -126,6 +126,10 @@ PRODUCT_PACKAGES += \
     libbson.vendor \
     libxml2
 
+# Calculator (Sakura only)
+PRODUCT_PACKAGES += \
+    ExactCalculator
+
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
