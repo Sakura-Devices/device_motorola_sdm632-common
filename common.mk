@@ -275,9 +275,23 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MotoActions
 
+# Moto TimeWeather
+PRODUCT_PACKAGES += \
+    TimeWeather
+
+# Moto Live Wallpaper
+PRODUCT_PACKAGES += \
+    MotoLiveWallpaper3
+
 # Network
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
+
+# Moto Dolby
+PRODUCT_PACKAGES += \
+    MotoDolbyV3
+
+$(call inherit-product, packages/apps/MotoDolbyV3/config.mk)
 
 # Perf
 PRODUCT_COPY_FILES += \
@@ -333,7 +347,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
-    $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
