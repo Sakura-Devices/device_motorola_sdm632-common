@@ -38,9 +38,9 @@
     "branch": "eleven"
   },
   {
-    "repository": "packages_apps_MotoDolbyV3",
+    "repository": "NemesisDevelopers/motorola/packages_apps_MotoDolbyV3",
     "target_path": "packages/apps/MotoDolbyV3",
     "branch": "eleven",
-    "remote": "motorola"
+    "remote": "gitlab"
   }
 ]
