@@ -4,8 +4,10 @@
     "target_path": "kernel/motorola/sdm632"
   },
   {
-    "repository": "android_system_qcom",
-    "target_path": "system/qcom"
+    "repository": "LineageOS/android_system_qcom",
+    "target_path": "system/qcom",
+    "remote": "github",
+    "branch": "lineage-18.1"
   },
   {
     "repository": "LineageOS/android_hardware_motorola",
@@ -42,5 +44,11 @@
     "target_path": "packages/apps/MotoDolbyV3",
     "branch": "eleven",
     "remote": "gitlab"
+  },
+  {
+    "repository": "DoritosMotorola/doritos_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "branch": "lineage-18.1",
+    "remote": "github"
   }
 ]
