@@ -1,7 +1,9 @@
 [
   {
-    "repository": "kernel_motorola_sdm632",
-    "target_path": "kernel/motorola/sdm632"
+    "repository": "DeinMathelehrer/android_kernel_motorola_sdm632",
+    "target_path": "kernel/motorola/sdm632",
+    "branch": "11",
+    "remote": "github"
   },
   {
     "repository": "LineageOS/android_system_qcom",
@@ -50,5 +52,10 @@
     "target_path": "vendor/motorola",
     "branch": "lineage-18.1",
     "remote": "github"
+  },
+  {
+    "repository": "ThankYouMario/proprietary_vendor_qcom_sdclang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-sdllvm",
+    "branch": "ruby-12"
   }
 ]
