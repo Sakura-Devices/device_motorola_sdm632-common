@@ -449,5 +449,7 @@
 
     <!-- Specify if the fingerprint hardware support gestures-->
     <bool name="config_fingerprintSupportsGestures">true</bool>
+    
+    <integer name="config_cpuTempDivider">1000</integer>
 
 </resources>
